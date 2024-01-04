@@ -1,0 +1,63 @@
+body {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0),rgb(6, 6, 56));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-position: center center; */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.head, .label1 {
+    color: white;
+}
+
+form {
+    background-color: rgba(55, 41, 145, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+}
+
+.email {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width:30%;
+    background-color: #02691c;
+    font-size: 1em;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 90px;
+}
+
+div {
+    width: 50%;
+    height: 50%;
+}
+
+textarea {
+    font-size: 1em;
+}
